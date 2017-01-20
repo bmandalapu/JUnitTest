@@ -27,7 +27,7 @@ public class StringHelperTestParam {
 	
 	@Parameters
 	public static Collection<String[]> testParam() {
-		String[][] testList = {{"CD","AACD"},{"CD","AD"}};
+		String[][] testList = {{"CD","AACD"},{"CD","ACD"}};
 		return Arrays.asList(testList);
 	}
 	
