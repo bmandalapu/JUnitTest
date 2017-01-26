@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-@RunWith(Parameterized.class)
+@RunWith(Parameterized.class) 
 public class StringHelperTestParam {
 	private StringHelper helprObj = new StringHelper();
 	private String in,out;
